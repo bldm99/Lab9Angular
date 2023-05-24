@@ -1,0 +1,14 @@
+<section class="container-tareas">
+    <h2>Tareas</h2>
+    <div class="tareas" >
+        <div class="caja" *ngFor="let tarea of datos">
+            <div class="nombre">
+                <p>{{ tarea.nombre }}</p>
+            </div>
+            <p>Entrega: {{ tarea.puesto }}</p>
+            <img [src]="tarea.foto" alt="Foto">
+            <p>Curso: {{ tarea.equipo }}</p>
+        </div>
+    </div>
+
+</section>

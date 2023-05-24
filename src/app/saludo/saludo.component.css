@@ -1,0 +1,18 @@
+
+.compo2{
+    background-image: url("https://images.indepth.dev/images/2021/05/Bindon_-lesser-known-Angular-template-features.jpg");
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.r{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(12, 12, 11, 0.6);
+    width: 500px;
+    
+}

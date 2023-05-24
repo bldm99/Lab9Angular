@@ -1,0 +1,26 @@
+
+
+.contador {
+    color: white;
+    background-color: black;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.botones button{
+    padding: 7px 7px;
+    border: 2px solid black;
+    background: rgb(25, 230, 7);
+    cursor: pointer;
+    outline-color: red;
+    border-radius: 8px;
+}
+
+.botones button:hover{
+    border: 2px solid rgb(255, 255, 252);
+}
